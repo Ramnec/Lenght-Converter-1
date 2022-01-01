@@ -1,0 +1,94 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: rgb(0,230,255) no-repeat center center fixed;;
+    background: linear-gradient(90deg, rgba(0,230,255,0.17549026446516103) 0%, rgba(255,255,255,0.15868354177608546) 50%, rgba(237,0,255,0.10546225326067926) 100%) no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.full-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.converter-body {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 2px 1px #cacaca;
+}
+
+
+.converter-title{
+  font-family: 'Roboto';
+  word-spacing: -55%;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.converter-subtitle{
+  font-family: 'Roboto';
+  word-spacing: -55%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  height: 25px;
+  text-align: center;
+
+}
+
+#input {
+  margin-left: 15px;
+}
+
+#inputType, #resultType{
+  width: 219.5px;
+  margin-left: 15px;
+  height: 30px;
+  color: black;
+  font-weight: 600;
+
+}
+
+.switch-button {
+  margin-left: 36.5%;
+  margin-right: 36.5%;
+  margin-top: 7%;
+  background-color: rgb(104, 104, 104);
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+
+.switch-button:hover {
+  color: #444444;
+  background: #FFFFFF;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  color: #444444;
+  background: #FFFFFF;
+}
